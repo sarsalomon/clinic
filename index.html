@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta data -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinic</title>
+  <!-- CSS files -->
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/lightgallery.min.css">
+</head>
+
+<body class="bg-light">
+  <div class="loader">
+    <div class="pulse"></div>
+  </div>
+
+  <header class="header" id="header">
+    <section>
+      <!-- Topbar -->
+      <nav class="navbar navbar-expand-lg topbar">
+        <div class="container">
+          <div class="row" style="width: 1200px;">
+            <div class="d-flex pt-1 col-lg-6">
+              <ul class="navbar-nav">
+                <li class="nav-item mb-1">
+                  <span href="#" class="nav-link"><i class="fas fa-map-marker-alt"></i><span class="ml-2">Toshkent
+                      ko'chasi , Olmaliq , Uz</span></span>
+                </li>
+                <li class="nav-item ml-2">
+                  <span href="#" class="nav-link"><i class="fas fa-phone"></i><span class="ml-1"> + 1235 2355
+                      98</span></span>
+                </li>
+              </ul>
+            </div>
+            <div class=" col-lg-6 d-flex align-items-center justify-content-end">
+              <ul class="navbar-nav">
+                <div class="nav-item mr-2">
+                  <select class="lang">
+                    <option value="uz" selected>Uzbekcha</option>
+                    <option value="ru">Ruscha</option>
+                  </select>
+                </div>
+                <li class="nav-item">
+                  <span href="#" class="nav-link" style="font-size: 14px;">
+                    <i class="fas fa-clock"></i>
+                    <span>Dush - Shanba(7:00 - 17:00)</span>
+                  </span>
+                </li>
+                <li class="nav-item">
+                  <span href="#" class="nav-link" style="font-size: 14px;">
+                    <i class="fas fa-envelope"></i>
+                    <span>Clinic@gmail.com</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Bottom bar -->
+
+      <nav class="navbar-expand-lg navbar wow fadeIn  bottombar border-bottom bg-white ad">
+        <div class="container">
+          <div class="row" style="width: 1200px;">
+            <div class="col-lg-3 d-flex justify-content-start">
+              <a href="#" class="navbar-brand logo">Shifoxona</a>
+            </div>
+            <div class="col-lg-9 d-flex justify-content-end align-items-center" style="position: relative;">
+              <ul class="navbar-nav">
+                <li class="nav-item mr-3">
+                  <a href="#" class="nav-link">Bosh sahifa</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a href="about.html" class="nav-link">Biz haqimizda</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a href="contact.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item depar-item">
+                  <a href="departament.html" class="nav-link">Departament xizmatlari</a>
+                </li>
+                <li class="nav-item btn-item">
+                  <button class="btn btn-primary rounded-0 border-0 shadow-none" style="background-color: #076cec;">
+                    <a href="login.html">Login</a>
+                  </button>
+                  <button class="btn btn-primary rounded-0 border-0 shadow-none" style="background-color: #076cec;">
+                    <a href="login.html">Ro'yxatdan o'tish</a>
+                  </button>
+                </li>
+                <li class="nav-item mt-1 login-icon-block">
+                  <a href="login.html" class="login-icon"><img src="img/icons/enter.png" alt="login"
+                      style="width: 30px; height: 30px;"></a>
+                </li>
+              </ul>
+              <div class="menu">
+                <img src="img/icons/menu.png" alt="menu">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="box">
+        <div class="menu-nav border">
+          <ul class="navbar-nav pt-5 d-block">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Bosh sahifa</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">Biz haqimizda</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a href="departament.html" class="nav-link">Departament xizmatlari</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">
+                Ro'yxatdan o'tish
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="main" id="main">
+    <section class="offer-bg d-flex pt-3">
+      <div class="container" style="width: 1200px !important;">
+        <div class="row">
+          <div class="col-lg-5 px-5 offer wow bounceInUp ad">
+            <h6 class="text-white semibold">Shifoxonamizga xush kelibsiz</h6>
+            <h1 class="text-white bold mt-3 mb-4 offer-title">Bizga qong'iroq qilishingiz mumkin</h1>
+            <p class="text-white">Biz siz va oilangiz haqida quyg'uramiz</p>
+            <button class="btn btn-primary shadow-none rounded-0 mt-3" style="background: white; height: 50px;">
+              <a href="contact.html" style="text-decoration: none; font-size: 14px;">
+                <span class="text-dark"> Xizmatlarimiz <i class="fas fa-arrow-right ml-2  mr-2"></i></span>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mb-5">
+      <div class="container work-time">
+        <div class="row" style="margin-top: -40px;">
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card border-0 rounded-0 shadow wow slideInLeft ad">
+              <div class="card-body px-4 pb-5 pt-5">
+                <div class="shadow d-flex justify-content-center align-items-center"
+                  style="border-radius: 50%; width: 68px; height: 68px;">
+                  <img src="img/icons/time-fast.png" alt="phone">
+                </div>
+                <div class="text mt-4">
+                  <h6 style="font-weight: 600;">Ochiladigan vaqtlarimiz</h6>
+                  <p class="card-text mt-2">
+                    Dushanba-Juma <span class="ml-2">7:00 - 17:00</span> <br>
+                    Dushanba-Juma <span class="ml-2">7:00 - 17:00</span> <br>
+                    Dushanba-Juma <span class="ml-2">7:00 - 17:00</span>
+                  </p>
+                  <span style="font-weight: 600;">+70(900)-70-67</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex second-card justify-content-center">
+            <div class="card  border-0 rounded-0 shadow wow fadeIn ad-3">
+              <div class="card-body px-4 pb-5 pt-5">
+                <div class="shadow d-flex justify-content-center align-items-center"
+                  style="border-radius: 50%; width: 68px; height: 68px;">
+                  <img src="img/icons/phone-vol.png" alt="phone">
+                </div>
+                <div class="text mt-5">
+                  <h6 style="font-weight: 600;">Tez yordam qong'iroqi</h6>
+                  <p class="card-text mt-2">
+                    To'satdan sog'lig'ingiz yomonlashsa bizga qong'iroq qiling
+                  </p>
+                  <span style="font-weight: 600;">+70(900)-70-67</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex last-card justify-content-center">
+            <div class="card  border-0 rounded-0 shadow wow ad-3 fadeInLeft">
+              <div class="card-body px-4 pb-5 pt-5">
+                <div class="shadow d-flex justify-content-center align-items-center"
+                  style="border-radius: 50%; width: 68px; height: 68px;">
+                  <img src="img/icons/loc-1.png" alt="phone">
+                </div>
+                <div class="text mt-5">
+                  <h6 style="font-weight: 600;">Royxat</h6>
+                  <p class="card-text mt-2">
+                    Bo'sh shifokorlar royxati
+                  </p>
+                  <button class="btn btn-primary rounded-0"><a href="#list"
+                      class="text-white nav-link">Royxat</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mb-5">
+        <div class="row bg-primary-blue p-4 d-flex align-items-center">
+          <div class="col-lg-1 col-md-2 col-sm-12 img-div">
+            <div class="img d-flex justify-content-center align-items-center bg-white">
+              <img src="img/icons/send.png" alt="send">
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-10 col-sm-12 text-div">
+            <div class="send-text" style="text-align: center;">
+              <span class="text-white do-text" style="font-size: 22px; font-weight: 600;">Imtiyozlarimizni olish uchun
+                murojaat qiling</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 btn-white-send">
+            <button class="btn btn-white"><a href="contact.html">Qabulga yozilish</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row mb-3 mt-5">
+          <div class="col-lg-7 col-md-12 wow bounceInDown adrt">
+            <h5 style="font-weight: 600;">Shifoxonamiz haqida</h5>
+            <h2 class="mt-3 mb-4" style="font-weight: 700;">Bizda kuchli davolash tizimi</h2>
+            <div class="text-secondary" style="line-height: 25px;">
+              <p style="font-size: 15px;">Har bir bemor bizning shifoxonamizda davo topgusidir chunki bizning
+                <br> metodimiz ishlayapti
+              </p>
+            </div>
+            <div class="text-secondary will-db">
+              <div>
+                <ul class="our-prices list-unstyled pb-0 mb-0 " style="font-size: 14.2px; line-height: 34px;">
+                  <li class="about-item"> Praesent class magnis facere</li>
+                  <li class="about-item">Quia necessitatibus lacinia</li>
+                  <li class="about-item">Expedita commodi occaecat</li>
+                  <li class="about-item">Praesent class magnis facere</li>
+                </ul>
+              </div>
+              <div class="second-menu">
+                <ul class="our-prices list-unstyled" style="font-size: 14.2px; line-height: 34px;">
+                  <li class="about-item">Ridiculus doloribus donec</li>
+                  <li class="about-item">Aliqua senectus felis tellus</li>
+                  <li class="about-item"> Hymenaeos placerat</li>
+                  <li class="about-item"> Praesent porta class</li>
+                </ul>
+              </div>
+            </div>
+            <button class="btn-light mb-2 mt-2 shadow"><a href="about.html">Learn more</a></button>
+          </div>
+          <div class="col-lg-5 col-md-12 bg-doc-img wow fadeInLeft adrt"></div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-png mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 services d-flex justify-content-center" style="padding: 60px 0px;">
+            <div class="service-text text-white wow rotateIn adrt" style="text-align: center;">
+              <div class="title">
+                <h5>Bizning Xizmatlarimiz</h5>
+              </div>
+              <div class="under-title pt-2">
+                <h1 style="font-weight: 700;">Shifoxonamiz xizmatlari</h1>
+              </div>
+              <div class="title pt-2">
+                <span>Bizning Shifoxonamiz uzoq yilardan beri xizmat ko'rsatamiz. Muvaffaqiyat bilan biz bemorlarga
+                  g'amxo'rlik ko'rsatamiz.Bu biz uchun juda muhum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row services-card">
+          <div class="col-lg-4 col-md-6  col-sm-12 d-flex justify-content-center">
+            <div class="card border-0 rounded-0 wow fadeInLeft adrt">
+              <div class="card-body">
+                <div class="card-body-img">
+                  <img src="img/icons/hr-1.png" width="78" height="78">
+                </div>
+                <div class="card-text pt-3">
+                  <h5>Cardiologiya</h5>
+                  <p class="text-dark pt-2" style="font-size: 15px; line-height: 28px;">
+                    Excepteur cras, earum ad rhoncus <br> inceptos conubia ligula quod. <br> Odio Amet eiusmod porta at!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card border-0 rounded-0  wow fadeInDown adrt ad">
+              <div class="card-body">
+                <div class="card-body-img">
+                  <img src="img/icons/hr-3.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5>Stomatologik yordam</h5>
+                  <p class="text-dark pt-2" style="font-size: 15px; line-height: 28px;">
+                    Excepteur cras, earum ad rhoncus <br> inceptos conubia ligula quod. <br> Odio Amet eiusmod porta at!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 last-card d-flex justify-content-center">
+            <div class="card border-0 rounded-0 wow fadeInUp adrt">
+              <div class="card-body">
+                <div class="card-body-img">
+                  <img src="img/icons/1-s.png" width="78" height="78">
+                </div>
+                <div class="card-text pt-3">
+                  <h5>Uydan parvarish qilish</h5>
+                  <p class="text-dark pt-2" style="font-size: 15px; line-height: 28px;">
+                    Excepteur cras, earum ad rhoncus <br> inceptos conubia ligula quod. <br> Odio Amet eiusmod porta at!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-lg-12 why_us d-flex justify-content-center">
+            <div class="why_us-text wow rotateInDownLeft adrt text-black" style="text-align: center;">
+              <div class="title">
+                <h5 style="font-weight: 700;">Nimaga bizni tanlashadi</h5>
+              </div>
+              <div class="under-title pt-2">
+                <h1 style="font-weight: 700;">Shifoxonamiz ishlash prossesi</h1>
+              </div>
+              <div class="title pt-2">
+                <span>Bizning Shifoxonamiz uzoq yilardan beri xizmat ko'rsatamiz. Muvaffaqiyat bilan biz bemorlarga
+                  g'amxo'rlik ko'rsatamiz.Bu biz uchun juda muhum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 pt-2 pb-5">
+          <div class="col-lg-4  col-md-6 col-sm-12 first-circle">
+            <div class="circle  p-4 wow fadeInDown adrt bg-white">
+              <div class="circle-img d-flex justify-content-center">
+                <img src="img/icons/checklist .png" alt="checklist">
+              </div>
+              <div class="circle-text text-align-center pt-4 pl-4">
+                <h5>Appointment</h5>
+                <p> To create an account and make easy treatement</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  col-md-6 col-sm-12 second-circle">
+            <div class="circle  p-4 wow fadeInRight adrt bg-white">
+              <div class="circle-img d-flex justify-content-center">
+                <img src="img/icons/checklist .png" alt="checklist">
+              </div>
+              <div class="circle-text text-align-center pt-4 pl-4">
+                <h5>Appointment</h5>
+                <p> To create an account and make easy treatement</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 last-circle">
+            <div class="circle  p-4 wow fadeInUp adrt bg-white">
+              <div class="circle-img  d-flex justify-content-center">
+                <img src="img/icons/checklist .png" alt="checklist">
+              </div>
+              <div class="circle-text text-align-center pt-4 pl-4">
+                <h5>Appointment</h5>
+                <p> To create an account and make easy treatement</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 bg-hz text-dark d-flex justify-content-center wow adrt fadeInRight">
+            <div class="content text-white w-75">
+              <h6 class="pt-2 pb-4">_Ish Xizmatlarimiz_</h6>
+              <h3 class="hz-title" style="font-weight: 700;">We take great care of <br> the elderly at home. <br> We are
+                very active in this <br> regard</h3>
+              <p class="hz-text pt-3">Necessitatibus quaerat aliquid? Pede eleifend tincidunt vel purus dignissimos
+                ipsum fringilla aliqua! Adipisci potenti senectus?</p>
+              <button class="btn-outline-white mt-1"><a href="contact.html"> Muolajangizni oling</a></button>
+            </div>
+          </div>
+          <div class="col-lg-6 bg-doc-patient col-md-12 wow adrt fadeInLeft"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="counter-block my-5 wow zoomInDown adrt">
+      <div class="container bg-white">
+        <div class="row p-5">
+          <div class="col-lg-3 col-md-6 col-sm-6 p-1 d-flex align-items-center">
+            <div class="counter-img">
+              <img src="img/icons/patients-1.png" alt="patients">
+            </div>
+            <div class="counter-number ml-2 mt-2 p-2 pr-0">
+              <h1 class="count">253</h1>
+              <span style="font-size: 18px;">Recovery patients</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-1 d-flex align-items-center">
+            <div class="counter-img">
+              <img src="img/icons/patients-1.png" alt="patients">
+            </div>
+            <div class="counter-number ml-2 mt-2 p-2 pr-0">
+              <h1 class="count">425</h1>
+              <span style="font-size: 18px;">Total beds</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-1 d-flex align-items-center">
+            <div class="counter-img">
+              <img src="img/icons/patients-1.png" alt="patients">
+            </div>
+            <div class="counter-number ml-2 mt-2 p-2 pr-0">
+              <h1 class="count">257</h1>
+              <span style="font-size: 18px;">Total doctors</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-1 d-flex align-items-center">
+            <div class="counter-img">
+              <img src="img/icons/patients-1.png" alt="patients">
+            </div>
+            <div class="counter-number ml-2 mt-2 p-2 pr-0">
+              <h1 class="count">176</h1>
+              <span style="font-size: 18px;">Awards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 mb-5">
+      <div class="container">
+        <div class="row pt-4 pb-5">
+          <div class="col-lg-12 mb-4 departament-services d-flex justify-content-center">
+            <div class="departament-text text-black adrt wow jackInTheBox" style="text-align: center;">
+              <div class="title">
+                <h5 style="font-weight: 600;">Departament Xizmatlari</h5>
+              </div>
+              <div class="under-title pt-2">
+                <h1 style="font-weight: 700;">Shifoxonamiz Departament xizmatlari</h1>
+              </div>
+              <div class="title pt-3 text-secondary" style="font-size: 15px;">
+                <span>Bizning Shifoxonamiz uzoq yilardan beri xizmat ko'rsatamiz. Muvaffaqiyat bilan biz bemorlarga
+                  g'amxo'rlik ko'rsatamiz.Bu biz uchun juda muhum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row departament-cards mb-4">
+          <div class="col-lg-3  col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow adrt jello">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/1-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Care at home</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow  wow adrt fadeInRight">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/2-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Major operation</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow adrt fadeInDown">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/3-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Retirement Home</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow fadeInLeft adrt">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/4-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Dental care</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row departament-cards mb-3">
+          <div class="col-lg-3  col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow fadeInLeft adrt">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/5-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Tablets</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow fadeInDown adrt">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/6-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Ambulance</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow fadeInUp adrt ad">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/7-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Call Us</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow flipInX adrt">
+              <div class="card-body p-4">
+                <div class="depar-card-img shadow-depar d-flex justify-content-center align-items-center">
+                  <img src="img/icons/5-s.png" alt="">
+                </div>
+                <div class="card-text pt-3">
+                  <h5 style="font-weight: 600;">Laboratory</h5>
+                  <p style="font-size: 14.6px;" class="text-secondary pt-3">
+                    Excepteur cras, earum ad rhoncus inceptos conubia ligula quod. Odio Amet eiusmod porta at!
+                  </p>
+                  <div class="arrow">
+                    <a href="departament.html"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-pulse mb-5" id="list">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 pt-3 list d-flex justify-content-center">
+            <div class="list-text text-white wow bounceInDown adrt">
+              <div class="title d-flex justify-content-center">
+                <h5 style="font-weight: 600;">Royxat</h5>
+              </div>
+              <div class="under-title pt-2">
+                <h1 class="d-flex justify-content-center" style="font-weight: 700;">Shifokorlar Royxati</h1>
+              </div>
+              <div class="title pt-2 text-white" style="font-size: 15px;">
+                <span>Bizning Shifoxonamiz uzoq yilardan beri xizmat ko'rsatamiz. Muvaffaqiyat bilan biz bemorlarga
+                  g'amxo'rlik ko'rsatamiz.</span>
+                <span class="centered-text">Bu biz uchun juda muhum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 wow slideInUp adrt">
+          <div class="col-lg-3 text-white p-3">
+            <div class="name-list-block mt-3 pl-2">
+              <ul class="name-list list-unstyled" style="line-height: 50px;">
+                <li class="name-item">Ismlar</li>
+                <li class="name-item">Alisher</li>
+                <li class="name-item">Sarvar</li>
+                <li class="name-item">Behruz</li>
+                <li class="name-item">Asad</li>
+                <li class="name-item">Feruza</li>
+                <li class="name-item">Nozima</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-1.5 time-col p-3">
+            <div class="time-list-block mt-3 pl-2 text-white">
+              <ul class="time-list list-unstyled" style="line-height: 50px;">
+                <li class="time-item">Dushanba</li>
+                <li class="time-item">9:00</li>
+                <li class="time-item"><span>Feruza</span></li>
+                <li class="time-item">7:00</li>
+                <li class="time-item"><span>Feruza</span></li>
+                <li class="time-item"><span>Feruza</span></li>
+                <li class="time-item">12:00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-1.5 p-3 time-col">
+            <div class="time-list-block mt-3 pl-2 text-white">
+              <ul class="time-list list-unstyled" style="line-height: 50px;">
+                <li class="time-item">Seshanba</li>
+                <li class="time-item"><span>Asad</span></li>
+                <li class="time-item">15:00</li>
+                <li class="time-item"><span>Asad</span></li>
+                <li class="time-item">17:00</li>
+                <li class="time-item"><span>Asad</span></li>
+                <li class="time-item">4:00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-1.5 p-3 time-col">
+            <div class="time-list-block mt-3 pl-2 text-white">
+              <ul class="time-list list-unstyled" style="line-height: 50px;">
+                <li class="time-item">Chorshanba</li>
+                <li class="time-item">10:00</li>
+                <li class="time-item"><span>Alisher</span></li>
+                <li class="time-item"><span>Behruz</span></li>
+                <li class="time-item">18:00</li>
+                <li class="time-item">9:00</li>
+                <li class="time-item"><span>Feruza</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-1.5 p-3 time-col">
+            <div class="time-list-block mt-3 pl-2 text-white">
+              <ul class="time-list list-unstyled" style="line-height: 50px;">
+                <li class="time-item">Payshanba</li>
+                <li class="time-item"><span>Asad</span></li>
+                <li class="time-item">15:00</li>
+                <li class="time-item"><span>Asad</span></li>
+                <li class="time-item">17:00</li>
+                <li class="time-item">4:00</li>
+                <li class="time-item"><span>Asad</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-1.5 p-3 time-col">
+            <div class="time-list-block mt-3 pl-2 text-white">
+              <ul class="time-list list-unstyled" style="line-height: 50px;">
+                <li class="time-item">Juma</li>
+                <li class="time-item"><span>Alisher</span></li>
+                <li class="time-item">10:00</li>
+                <li class="time-item"><span>Behruz</span></li>
+                <li class="time-item">18:00</li>
+                <li class="time-item"><span>Feruza</span></li>
+                <li class="time-item">9:00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-1.5 p-3 time-col">
+            <div class="time-list-block mt-3 pl-2 text-white">
+              <ul class="time-list list-unstyled" style="line-height: 50px;">
+                <li class="time-item">Shanba</li>
+                <li class="time-item">9:00</li>
+                <li class="time-item"><span>Feruza</span></li>
+                <li class="time-item">7:00</li>
+                <li class="time-item"><span>Feruza</span></li>
+                <li class="time-item"><span>Feruza</span></li>
+                <li class="time-item">12:00</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 pt-3 best-work d-flex justify-content-center mb-5">
+            <div class="best-work-text animated fadeInUp none" style="text-align: center;">
+              <div class="title">
+                <h5 style="font-weight: 600;">Bizning Ishimiz</h5>
+              </div>
+              <div class="under-title pt-2">
+                <h1 style="font-weight: 700;">Bizning eng zor tugalangan ishlarimiz</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery-section mb-5">
+      <div class="container">
+        <div class="row lightgallery">
+          <div class="col-lg-4 col-md-6 first-img d-flex justify-content-center wow adrt rotateInUpLeft" data-src="img/blog/1.jpg">
+            <a href="img/blog/1.jpg">
+              <img src="img/blog/1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 second-img d-flex justify-content-center wow adrt slideInRight" data-src="img/work/5.png">
+            <a href="img/work/5.png">
+              <img src="img/work/5.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 third-img d-flex justify-content-center wow adrt bounceInDown gal-3" data-src="img/work/2.png">
+            <a href="img/work/2.png">
+              <img src="img/work/2.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-8 col-md-12 mt-3 fourth-img wow adrt fadeInDown" data-src="img/bg/bg_copy_9_ia.jpg">
+            <a href="img/bg/bg_copy_9_ia.jpg" class=" d-flex justify-content-center">
+              <img src="img/bg/bg_copy_9_ia.jpg" alt="" width="94%" height="380">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-3 fifth-img wow adrt flipInY" data-src="img/work/woman-doc.jpeg">
+            <a href="img/work/woman-doc.jpeg" class="d-flex justify-content-center">
+              <img src="img/work/woman-doc.jpeg" alt="" height="380" width="90%">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team-section" style="margin-bottom: 70px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 pt-3 team d-flex justify-content-center">
+            <div class="team-text adrt wow rotateInUpRight" style="text-align: center;">
+              <div class="title">
+                <h5 style="font-weight: 600;">Bizning Jamoa</h5>
+              </div>
+              <div class="under-title pt-2">
+                <h1 style="font-weight: 700;">Bizning eng malakali shifokorlarimiz</h1>
+              </div>
+              <div class="title pt-2 text-secondary" style="font-size: 15px;">
+                <span>Bizning Shifoxonamiz uzoq yilardan beri xizmat ko'rsatamiz. Muvaffaqiyat bilan biz bemorlarga
+                  g'amxo'rlik ko'rsatamiz.</span>
+                <span class="centered-text">Bu biz uchun juda muhum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 mb-5 team-cards">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0 rounded-0 shadow wow fadeInUp adrt">
+              <div class="card-body p-0">
+                <div>
+                  <img src="img/team/01.jpg" class="card-img border-0 rounded-0"
+                    style="width: 100%; height: 100%; position: relative;">
+                </div>
+                <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                  <div class="card-overlay">
+                    <div class="card-text">
+                      <h6>DR.Samatov Behruz</h6>
+                      <span>Uzbek Vrach</span>
+                      <div class="team-social mt-4">
+                        <ul class="team-scl-list list-unstyled d-flex">
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0 rounded-0 shadow wow rollIn adrt">
+              <div class="card-body p-0">
+                <div>
+                  <img src="img/team/02.jpg" class="card-img border-0 rounded-0"
+                    style="width: 100%; height: 100%; position: relative;">
+                </div>
+                <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                  <div class="card-overlay">
+                    <div class="card-text">
+                      <h6>DR.Samatov Behruz</h6>
+                      <span>Uzbek Vrach</span>
+                      <div class="team-social mt-4">
+                        <ul class="team-scl-list list-unstyled d-flex">
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <div class="card border-0 rounded-0 shadow wow fadeInUp adrt">
+              <div class="card-body p-0">
+                <div>
+                  <img src="img/team/03.jpg" class="card-img border-0 rounded-0"
+                    style="width: 100%; height: 100%; position: relative;">
+                </div>
+                <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                  <div class="card-overlay">
+                    <div class="card-text">
+                      <h6>DR.Samatov Behruz</h6>
+                      <span>Uzbek Vrach</span>
+                      <div class="team-social mt-4">
+                        <ul class="team-scl-list list-unstyled d-flex">
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <div class="card border-0 rounded-0 shadow wow bounceInDown adrt">
+              <div class="card-body p-0">
+                <div>
+                  <img src="img/team/04.jpg" class="card-img border-0 rounded-0"
+                    style="width: 100%; height: 100%; position: relative;">
+                </div>
+                <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                  <div class="card-overlay">
+                    <div class="card-text">
+                      <h6>DR.Samatov Behruz</h6>
+                      <span>Uzbek Vrach</span>
+                      <div class="team-social mt-4">
+                        <ul class="team-scl-list list-unstyled d-flex">
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-persents mb-5">
+      <div class="container wow fadeInUp adrt">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-12 p-5 d-flex justify-content-center align-items-center">
+            <div class="text-white appo-text pt-3 " style="text-align: center;">
+              <h6 style="font-weight: 600;"> Xafa bo'lmang</h6>
+              <h1 class="pt-2">Uchrashuv belgilang</h1>
+              <button class="btn-outline-white appo-btn mt-3"><a href="contact.html">Uchrashuvga yoziling</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 comment d-flex justify-content-center">
+            <div class="comment-text text-black wow jackInTheBox adrt" style="text-align: center;">
+              <div class="title">
+                <h5 style="font-weight: 600;">Bemorlarimiz</h5>
+              </div>
+              <div class="under-title pt-2">
+                <h1 style="font-weight: 700;">Bemorlarimiz fikri</h1>
+              </div>
+              <div class="title-block d-flex justify-content-center">
+                <div class="title pt-2 text-secondary" style="font-size: 15px;">
+                  <span>Bizning Shifoxonamiz uzoq yilardan beri xizmat ko'rsatamiz. Muvaffaqiyat bilan biz bemorlarga
+                    g'amxo'rlik ko'rsatamiz.Bu biz uchun juda muhum</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row comment-cards">
+          <div class="col-lg-6">
+            <div class="card border-0 rounded-0  bg-primary-blue text-white adrt wow fadeInUpBig">
+              <div class="card-body">
+                <div class="card-text" style="font-style: italic; font-size: 14px;">
+                  <h5 class="w-75">"Shifoxonamiz sizlar haqingizda qayg'uradi"</h5>
+                  <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam nobis
+                    laborum dolorem voluptatum! Eaque quae sint assumenda quisquam modi ratione nobis eum mollitia fuga
+                    a.</p>
+                  <h6 class="pt-2">-- Alimbekov Samandar</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-0 rounded-0 bg-primary-blue text-white  drt wow fadeInDownBig">
+              <div class="card-body">
+                <div class="card-text" style="font-style: italic; font-size: 14px;">
+                  <h5 class="w-75">"Shifoxonamiz sizlar haqingizda qayg'uradi"</h5>
+                  <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam nobis
+                    laborum dolorem voluptatum! Eaque quae sint assumenda quisquam modi ratione nobis eum mollitia fuga
+                    a.</p>
+                  <h6 class="pt-2">-- Alimbekov Samandar</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-lg-12 mb-4 pt-3 team d-flex justify-content-center">
+              <div class="team-text wow bounceInDown adrt" style="text-align: center;">
+                <div class="title">
+                  <h5 style="font-weight: 600;">Bizning Blog</h5>
+                </div>
+                <div class="under-title pt-2">
+                  <h1 style="font-weight: 700;">Yangiliklardan xabardor boling</h1>
+                </div>
+                <div class="title pt-2 text-secondary" style="font-size: 15px;">
+                  <span>Bizning Shifoxonamiz uzoq yilardan beri xizmat ko'rsatamiz. Muvaffaqiyat bilan biz bemorlarga
+                    g'amxo'rlik ko'rsatamiz.</span>
+                  <span class="centered-text">Bu biz uchun juda muhum</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5 blog-cards mt-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow fadeInLeft adrt">
+              <div class="card-body p-0">
+                <div class="card-img-wrap">
+                  <img src="img/blog/3.jpg" alt="woman with glasses" class="card-img rounded-0">
+                </div>
+                <div class="card-text p-3" style="text-align: start;">
+                  <h6 class="blog-card-title pt-3"><a href="blog.html" class="title-link">Officia Amet Optio Natoque
+                      Ante, Orci Potenti</a></h6>
+                  <p class="blog-card-text text-secondary">Sapien lorem laborum voluptate! Arcu et officia amet optio
+                    natoque ante, orci potenti</p>
+                  <div class="icons mt-4">
+                    <button class="learn-more"><a href="blog.html"> Learn more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card border-0 rounded-0 shadow wow fadeInUp adrt ad">
+              <div class="card-body p-0">
+                <div class="card-img-wrap">
+                  <img src="img/blog/2.jpg" alt="woman with glasses" class="card-img rounded-0">
+                </div>
+                <div class="card-text p-3" style="text-align: start;">
+                  <h6 class="blog-card-title pt-3"><a href="blog.html" class="title-link">Officia Amet Optio Natoque
+                      Ante, Orci Potenti</a></h6>
+                  <p class="blog-card-text text-secondary">Sapien lorem laborum voluptate! Arcu et officia amet optio
+                    natoque ante, orci potenti</p>
+                  <div class="icons mt-4">
+                    <button class="learn-more"><a href="blog.html"> Learn more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  col-md-6 col-sm-12 last-blog-card">
+            <div class="card border-0 rounded-0 shadow wow fadeInLeft adrt">
+              <div class="card-body p-0">
+                <div class="card-img-wrap">
+                  <img src="img/blog/1.jpg" alt="woman with glasses" class="card-img rounded-0">
+                </div>
+                <div class="card-text p-3" style="text-align: start;">
+                  <h6 class="blog-card-title pt-3"><a href="blog.html" class="title-link">Officia Amet Optio Natoque
+                      Ante, Orci Potenti</a></h6>
+                  <p class="blog-card-text text-secondary">Sapien lorem laborum voluptate! Arcu et officia amet optio
+                    natoque ante, orci potenti</p>
+                  <div class="icons mt-4">
+                    <button class="learn-more"><a href="blog.html"> Learn more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mb-5 mt-4 bg-blue-img">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8 pt-own text-white">
+            <div class="contact-inputs wow flipInX " style="animation-duration: 2s;">
+              <h2 class="appo-title">Get appointment</h2>
+              <form class="contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" placeholder="Ism">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" placeholder="Familiya">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" placeholder="Tel: raqam">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" placeholder="Yashash joyi">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                    <div class="contact-sub-btn">
+                      <button type="submit" name="submit" id="submit">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row sm-cards mt-5" style="margin-bottom: 70px;">
+          <div class="col-lg-4  col-md-6">
+            <div class="card border-0 rounded-0 wow bounceInUp adrt">
+              <div class="card-body d-flex align-items-center">
+                <div class="card-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="card-text pl-3 pt-2">
+                  <span class="span-title" style="font-weight: 560;">Find Doctors</span>
+                  <p class="pt-3 text-gray">589 RN Road, California, USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  col-md-6 second-sm">
+            <div class="card border-0 rounded-0 wow bounceInUp adrt">
+              <div class="card-body d-flex align-items-center">
+                <div class="card-icon">
+                  <i class="fas fa-phone-volume"></i>
+                </div>
+                <div class="card-text pl-3 pt-2">
+                  <span class="span-title" style="font-weight: 560;">Find Doctors</span>
+                  <p class="pt-3 text-gray">589 RN Road, California, USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 third-sm">
+            <div class="card border-0 rounded-0 wow bounceInUp adrt">
+              <div class="card-body d-flex align-items-center">
+                <div class="card-icon">
+                  <i class="fas fa-briefcase-medical"></i>
+                </div>
+                <div class="card-text pl-3 pt-2">
+                  <span class="span-title" style="font-weight: 560;">Find Doctors</span>
+                  <p class="pt-3 text-gray">589 RN Road, California, USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="sidemenu">
+    <div class="btn-block-top">
+      <button id="btn-to-top">
+        <i class="fas fa-arrow-up" style="font-size: 18px;"></i>
+      </button>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <section style="background:#191919;">
+      <div class="container">
+        <div class="row p-5" style="display: flex; justify-content: space-between;">
+          <div class="col-lg-3 py-4 pr-4">
+            <ul class="about-footer-block footer-blocks text-white pl-0">
+              <div class="footer-title">
+                <h4>About us</h4>
+              </div>
+              <ul class="footer-list list-group list-unstyled pt-3" style="font-size: 15px;">
+                <li>
+                  <span>Ohangaron shahar 1-daxa Salomatlik ko'chasi 65-bino</span>
+                </li>
+                <li>
+                  <span><i class="fas fa-envelope"></i><span>Poliklinika@gmail.com</span></span>
+                </li>
+                <li>
+                  <span><i class="fas fa-phone"></i><span>+998 00-000-90-67</span></span>
+                </li>
+                <li>
+                  <div class="footer-socials">
+                    <div class="footer-icon">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-icon ml-2">
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="footer-icon ml-2">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="footer-icon ml-2">
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+          </div>
+          <div class="col-lg-3.5 py-4 pr-4">
+            <ul class="depar-footer-block footer-blocks text-white pl-0">
+              <div class="footer-title">
+                <h4>Our Departaments</h4>
+              </div>
+              <ul class="footer-list list-group list-unstyled pt-3" style="font-size: 15px; line-height: 3px;">
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right" style="line-height: 42px;"></i>
+                    <span>Medoz & Intensive Care</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Home Care</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Caregivers</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right" style="line-height: 42px;"></i>
+                    <span>Diagnosis & Investigation</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Medical & Surgical</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Mental Health</span>
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-lg-2.5 py-4 third-col">
+            <ul class="depar-footer-block footer-blocks text-white pl-0">
+              <div class="footer-title">
+                <h4>Helpful links</h4>
+              </div>
+              <ul class="footer-list list-group list-unstyled pt-3" style="font-size: 15px; line-height: 3px;">
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Who We Are</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Awards Since</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right" style="line-height: 42px;"></i>
+                    <span>Our Team Mission</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>History</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Perpose</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Success Story</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-arrow-circle-right"></i>
+                    <span>Support</span>
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-lg-3 py-4 col-md-6 col-sm-12">
+            <ul class="depar-footer-block footer-blocks text-white pl-0">
+              <div class="footer-title">
+                <h4>Opening hours</h4>
+              </div>
+              <ul class="footer-list list-group list-unstyled pt-3" style="font-size: 15px; line-height: 20px;">
+                <li>
+                  <div class="footer-time" style="display: flex; justify-content: space-between;">
+                    <span>Monday - Tuesday</span>
+                    <span>9.00 - 17.00</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-time" style="display: flex; justify-content: space-between;">
+                    <span>Saturday</span>
+                    <span>9.00 - 16.00</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-time" style="display: flex; justify-content: space-between;">
+                    <span>Monday - Tuesday</span>
+                    <span>9.00 - 17.00</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-time" style="display: flex; justify-content: space-between;">
+                    <span>Sunday</span>
+                    <span>Closed</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="subscribe">
+                    <form>
+                      <input type="text" placeholder="Type Your Email">
+                      <button type="submit"><i class="fas fa-location-arrow"></i></button>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+  <!-- JS files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/lightgallery-all.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
